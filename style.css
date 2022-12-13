@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 170px;
+}
+
+body {
+    background-image: url(https://images2.alphacoders.com/789/789853.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0f0c2d;
+}
+
+
+h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 1.5rem;
+    color: white;
+    padding: 2%;
+}
+
+.imgt {
+    padding: 0 1vw;
+    width: 12vw;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 10vw;
+    background: rgba(124, 111, 240, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #d9e660;
+    transition: 0.2s;
+}
+
+ul {
+    cursor: pointer;
+    font-family: 'Source Sans Pro';
+    font-size: 1.5rem;
+    gap: 2vw;
+    display: flex;
+    list-style: none;
+    color: white;
+    padding-right: 3%;
+}
+
+
+.btn_icon {
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 40px;
+    align-items: center;
+}
+
+.btn_assis {
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 25%;
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    font-family: 'Source Sans Pro';
+    padding: 7px 50px;
+    background-color: white;
+    color: #31267f;
+    border-radius: 8px;
+}
+
+.btn_fav {
+    font-family: 'Source Sans Pro';
+    margin-left: 3%;
+    margin-top: 25%;
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+}
+
+.inicial {
+    width: 100%;
+    position: absolute;
+    margin-top: 15%;
+}
+
+.sobre {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.item {
+    padding: 1%;
+    width: 20%;
+}
+
+.item_img {
+    border-radius: 10px;
+    width: 22vw;
+    height: 15vw;
+    padding: 1%;
+}
+
+.informaçao {
+    font-size: 1.5rem;
+    font-family: Poppins;
+    color: white;
+}
+
+.titulo {
+    margin-top: 15%;
+    padding: 2% 0;
+    font-size: 2rem;
+    color: white;
+    margin-left: 3%;
+}
+
+.elenco {
+    position: relative;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.gallery-wrapper {
+    overflow-x: auto;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+    background-color: #0f0c2d;
+    width: 20px;
+}
+
+.gallery-wrapper::-webkit-scrollbar-thumb {
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #31267f;
+}
+
+.ator {
+    margin-bottom: 1rem;
+    margin-top: 2%;
+    align-items: center;
+    text-align: center;
+    margin-left: 3%;
+    width: 500px;
+    position: relative;
+    background: rgba(46, 38, 125, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+
+.atore {
+    height: 25rem;
+    margin-top: 3%;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+.diretor {
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15%;
+    display: flex;
+    margin-left: 3%;
+    width: 90%;
+    background: rgba(46, 38, 125, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.diretore {
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.dirtext {
+    width: 50%;
+}
+
+.nome_diretor {
+    font-family: 'Source Sans Pro';
+    font-size: 2vw;
+    color: white;
+    padding: 2% 0;
+}
+
+.diricon {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30px;
+    gap: 20px;
+}
+
+.sub {
+    font-family: 'Source Sans Pro';
+    font-size: 1.5rem;
+    color: rgb(140, 140, 140);
+    padding: 0.5rem;
+}
+
+.trilhasonora {
+    justify-content: center;
+    display: flex;
+    margin-left: 3%;
+}
+
+.albumimg {
+    border-radius: 1vw;
+    width: 20vw;
+}
+
+.spacemusic {
+    background: rgba(46, 38, 125, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-bottom: 1vw;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    margin-left: 1vw;
+}
+
+.gallery-container {
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1rf);
+    grid-auto-rows: 300px;
+    grid-gap: 10px;
+}
+
+.gallery-item {
+    position: relative;
+}
+
+.gallery-item img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.h-1 {
+    grid-row: span 1;
+}
+
+.h-2 {
+    grid-row: span 2;
+}
+
+.w-1 {
+    grid-column: span 1;
+}
+
+.w-2 {
+    grid-column: span 2;
+}
+
+
+.footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Poppins;
+    background-color: #0f0c2d;
+    color: white;
+    padding: 3rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+@media(max-width:500px) {
+
+    header a {
+        display: none;
+    }
+
+    .imgt {
+        padding: 0 30%;
+        width: 10rem;
+    }
+
+    .btn_assis {
+        margin-left: 1rem;
+        margin-top: 40%;
+        cursor: pointer;
+        font-size: 1.5rem;
+        border: none;
+        padding: 1rem;
+    }
+
+    .btn_fav {
+        margin-left: 1rem;
+        margin-top: 0;
+        cursor: pointer;
+        font-size: 1.5rem;
+        border: none;
+        padding: 1rem;
+    }
+    .btn_icon {
+        width: 1rem;
+    }
+    
+
+    .sobre {
+        display: list-item;
+    }
+
+    .item {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        width: 90%;
+    }
+
+    .item_img {
+        border-radius: 10px;
+        width: 22rem;
+        height: 15rem;
+        padding: 1%;
+    }
+
+
+    .diretor {
+        display: list-item;
+    }
+
+    .dirtext {
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .nome_diretor {
+        font-size: 2rem;
+    }
+
+    .diretore {
+        padding: 1rem;
+        margin-top: 5%;
+        border-radius: 10px;
+        width: 25rem;
+    }
+
+    .trilhasonora {
+        display: list-item;
+    }
+
+    .albumimg {
+        width: 20rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spacemusic {
+        margin-bottom: 1rem;
+        width: 25rem;
+    }
+    .gallery-container {
+        width: 100%;
+}
+
+}
